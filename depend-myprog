@@ -1,0 +1,1 @@
+mediaobject.o: mediaobject.cpp mediaobject.h

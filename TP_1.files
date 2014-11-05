@@ -1,0 +1,9 @@
+mediaobject.h
+mediaobject.cpp
+main.cpp
+photo.h
+photo.cpp
+video.h
+video.cpp
+film.h
+film.cpp
