@@ -10,9 +10,9 @@ public:
     Video(string name, int id, string pathname, long length);
 
     virtual long getLength () const;
-    virtual void setLength ( long);
+    virtual void setLength ( long); 
+    virtual void print();
 
-    virtual void  print() const;
 };
 
 #endif // VIDEO_H

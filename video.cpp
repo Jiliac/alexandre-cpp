@@ -15,6 +15,6 @@ long Video::getLength () const{
 void Video::setLength ( long l){
     length=l;
 }
-void  Video::print() const{
+void  Video::print() {
     cout <<"MediaObject "<< name<< " d'Id "<<id<<" de pathname "<<pathname<<" de duree " <<length;
 }

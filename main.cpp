@@ -26,9 +26,10 @@ int main(){
     }
 
 
-    cout << "test de film et des tableaux";
+    cout << "\ntest de film et des tableaux";
     int chapters [3] = {1, 2, 3};
-    Film *
-            film_1= new Film ("premierFilm", 1258,"~/Desktop",50,3,chapters);
-
+    Film* film_1= new Film ("premierFilm", 1258,"~/Desktop",50,3,chapters);
+    film_1->print();
+    chapters[0] = 5; // on verifie que le tableau a bien etait copie
+    film_1->print();
 }

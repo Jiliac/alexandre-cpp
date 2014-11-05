@@ -8,7 +8,7 @@
 PROG=myprog
 
 # Fichiers sources (NE PAS METTRE les .h mais seulement les .cpp)
-SOURCES=mediaobject.cpp main.cpp photo.cpp video.cpp
+SOURCES=mediaobject.cpp main.cpp photo.cpp video.cpp film.cpp
 
 # Fichiers objets (ne pas modifier, sauf si l'extension n'est pas .cpp)
 OBJETS=${SOURCES:%.cpp=%.o}
